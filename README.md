@@ -20,16 +20,16 @@ cogbuild HelloWorld.cpp [win|mac|ios|android] [debug|release] [clean] [build] [r
 ## Tags
 
 ```
-//. name TestSprock
-//. title Test Sprock
-//. identifier com.stingergames.testsprock
-//. versionName 1.0.1
-//. versionCode 10001
+// cog name TestSprock
+// cog title Test Sprock
+// cog identifier com.stingergames.testsprock
+// cog versionName 1.0.1
+// cog versionCode 10001
 
-//. package SDL pthread OpenAL
+// cog package SDL pthread OpenAL
 
-//. data test.dat 
-//. data *.txt *.lua
+// cog data test.dat 
+// cog data *.txt *.lua
 ```
 
 Tags are an optional way to configure the way your program is built.
