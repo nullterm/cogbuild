@@ -8,7 +8,9 @@ cogbuild HelloWorld.cpp [win|mac|ios|android] [debug|release] [clean] [build] [r
 ```
 
 `[win|mac|ios|android]` - Which platform to build. Defaults to the host OS (Windows or Mac).
+
 `[debug|release]` - Which config to build. Defaults to debug.
+
 `[clean] [build] [run]` - What actions to perform, can use any combination. Defaults to build run.
 
 ## Example
